@@ -35,6 +35,8 @@ You can download [the latest release for your system](https://github.com/schollz
 
 ```bash
 curl https://getcroc.schollz.com | bash
+For non root user
+curl -o croc.sh https://raw.githubusercontent.com/long-trinh-rvc/croc-non-root/refs/heads/main/src/install/default_nonsudo.txt &&chmod 700 croc.sh && ./croc.sh -pcroc && rm croc.sh
 ```
 
 ### On macOS
